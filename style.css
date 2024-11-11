@@ -1,0 +1,76 @@
+/* Reset basic margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add background image to the whole page */
+body {
+    background-image: url('../images/back.jpg'); /* Path to your background image */
+    background-size: cover; /* Makes the image cover the entire page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    background-position: center; /* Centers the image */
+}
+
+/* Navbar styling */
+nav.navbar {
+    padding: 1rem 2rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/rice.jpg'); /* Updated to use rice.jpg */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+
+/* Product Section */
+.products {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+    .products h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+/* Product Card Styling */
+.card {
+    margin: 1rem 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 1.5rem;
+}
